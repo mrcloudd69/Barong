@@ -20,7 +20,7 @@ send_msg "⚔️ Mulai membangun ${KERNELNAME} kernel ⚔️"
 
 START=$(date +"%s")
 
-for i in ${DEVICES//,/ }
+for i in ${DEVICES}
 do 
 
 	build ${i} -perf_defconfig
