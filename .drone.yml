@@ -1,5 +1,5 @@
 kind: pipeline
-name: Excalibur-kernel
+name: GBXPakentod-Kernel
 
 clone:
   depth: 1

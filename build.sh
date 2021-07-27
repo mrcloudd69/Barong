@@ -1,12 +1,12 @@
 #!/bin/bash
 
-export KERNELNAME=Excalibur
+export KERNELNAME=GBX PAKENTOD
 
 export LOCALVERSION=
 
-export KBUILD_BUILD_USER=ExcaliburZx
+export KBUILD_BUILD_USER=MR.CLOUD
 
-export KBUILD_BUILD_HOST=FunProject
+export KBUILD_BUILD_HOST=GBXPakentod
 
 export TOOLCHAIN=clang
 
@@ -16,7 +16,7 @@ source helper
 
 gen_toolchain
 
-send_msg "⚔️ Mulai menempa ${KERNELNAME} kernel ⚔️"
+send_msg "⚔️ Mulai membangun ${KERNELNAME} kernel ⚔️"
 
 START=$(date +"%s")
 
